@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/imballinst/antd-without-form",
+  "author": "Try Ajitiono <ballinst@gmail.com>",
+  "license": "MIT",
+  "packageManager": "yarn@3.6.4",
+  "scripts": {
+    "wf": "yarn workspace antd-with-form"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
