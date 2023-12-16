@@ -7,7 +7,8 @@
   "license": "MIT",
   "packageManager": "yarn@3.6.4",
   "scripts": {
-    "wf": "yarn workspace antd-with-form"
+    "wf": "yarn workspace antd-with-form",
+    "wof": "yarn workspace antd-without-form"
   },
   "workspaces": [
     "packages/*"

@@ -1361,6 +1361,24 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"antd-without-form@workspace:packages/antd-without-form":
+  version: 0.0.0-use.local
+  resolution: "antd-without-form@workspace:packages/antd-without-form"
+  dependencies:
+    "@ant-design/cssinjs": ^1.18.1
+    "@astrojs/check": ^0.3.3
+    "@astrojs/react": ^3.0.7
+    "@types/react": ^18.2.45
+    "@types/react-dom": ^18.2.18
+    antd: ^5.12.2
+    astro: ^4.0.6
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-hook-form: ^7.49.2
+    typescript: ^5.3.3
+  languageName: unknown
+  linkType: soft
+
 "antd@npm:^5.12.2":
   version: 5.12.2
   resolution: "antd@npm:5.12.2"
@@ -4931,6 +4949,15 @@ __metadata:
   peerDependencies:
     react: ^18.2.0
   checksum: 7d323310bea3a91be2965f9468d552f201b1c27891e45ddc2d6b8f717680c95a75ae0bc1e3f5cf41472446a2589a75aed4483aee8169287909fcd59ad149e8cc
+  languageName: node
+  linkType: hard
+
+"react-hook-form@npm:^7.49.2":
+  version: 7.49.2
+  resolution: "react-hook-form@npm:7.49.2"
+  peerDependencies:
+    react: ^16.8.0 || ^17 || ^18
+  checksum: e982a4638d474bfd156a7d4ebb098065944895f62d8e0098195a2e0030106debea7262ddd58f920797f3b651fdc2a47831f89be0c7e0338c9cb8430fd3b202f1
   languageName: node
   linkType: hard
 
